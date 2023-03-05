@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid black;
+        }
+
+        .inner {
+            display: flex;
+            border: 1px solid red;
+        }
+
+        .inner li {
+            margin: 2vh;
+        }
+
+        .container {
+            width: 100%;
+            background-color: #ddd;
+        }
+
+        .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+        }
+
+        .html {
+            width: 90%;
+            background-color: #04AA6D;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outer">
+        <ul class="inner">
+            <li>home</li>
+            <li>project</li>
+            <li>about</li>
+        </ul>
+        <ul class="inner">
+            <li>home</li>
+        </ul>
+    </div>
+    <div style="border: 1px solid black;">
+        <p>hi</p>
+    </div>
+    <p>HTML</p>
+    <div class="container">
+      <div class="skills html">90%</div>
+    </div>
+</body>
+
+</html>
